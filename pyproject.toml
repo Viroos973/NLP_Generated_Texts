@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nlp-generated-texts"
+version = "0.1.0"
+description = ""
+authors = ["Yuriy Eliseev <yurij.eliseev.2004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.2.0"
+numpy = "1.26.4"
+onnxruntime = "1.17.3"
+fire = "0.5.0"
+transformers = "4.39.3"
+flask = "3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
